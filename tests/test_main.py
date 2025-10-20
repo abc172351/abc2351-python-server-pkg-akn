@@ -16,4 +16,4 @@ def abc2351_python_api():
 def test_index(abc2351_python_api):
     response = abc2351_python_api.get("/")
     assert response.status_code == 200
-    assert response.json["message"] == "Hello, World!"
+    assert response.json == {"message": "Hello, World!"}
