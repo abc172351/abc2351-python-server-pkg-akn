@@ -6,8 +6,18 @@ dist/
 wheels/
 *.egg-info
 
-# Virtual environments
+# environments
+.python-version
 .venv
 
+# tests
+htmlcov/
+.coverage
+.pytest_cache
+
+# macOS
+.DS_Store
+
 # etc.
+.ruff_cache
 snc.http
